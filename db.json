@@ -46,7 +46,7 @@
         "Record": [
             {
                 "notificationId": "8cd2342f46b0fb000dc62e37",
-                "notificationDate": "2018-10-31T21:19:51.411",
+                "notificationDate": "2018-10-05T21:19:51.411",
                 "notificationRead": false,
                 "notificationType": "business",
                 "notificationPilar": "OPENRECORDS",
@@ -74,7 +74,7 @@
         },
         {
             "notificationId": "8cd2342f46b0fb000dc62e37",
-            "notificationDate": "2018-10-31T21:19:51.411",
+            "notificationDate": "2018-08-31T21:19:51.411",
             "notificationRead": false,
             "notificationType": "person",
             "notificationPilar": "CLOSEDRECORDS",
@@ -105,7 +105,7 @@
     "Register": [
         {
             "notificationId": "8cd2342f46b0fb000dc62e37",
-            "notificationDate": "2018-10-31T21:19:51.411",
+            "notificationDate": "2018-10-30T21:19:51.411",
             "notificationRead": true,
             "notificationType": "business",
             "notificationPilar": "CONSULTS",
