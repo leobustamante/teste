@@ -96,7 +96,7 @@
             "notificationType": "return 'person' or 'business'",
             "notificationPilar": "CONSULTS",
             "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
-            "date": {},
+            "date": "2015-05-02",
             "companyName": "Serasa Empreendedor S.A.",
             "businessDocumentId": "34234922000110",
             "quantity": 4
