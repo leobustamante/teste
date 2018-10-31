@@ -1,8 +1,8 @@
 {
     "notifications" : {
-        "businessDocument": 43022877000121,
+        "businessDocument": "43022877000121",
         "businessNotification": 4,
-        "personDocument": 38102283612,
+        "personDocument": "38102283612",
         "personNotification": 2,
         "PilarNotification": [
             {
