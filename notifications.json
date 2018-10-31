@@ -1,0 +1,131 @@
+{
+    "businessDocument": 43022877000121,
+    "businessNotification": 4,
+    "personDocument": 38102283612,
+    "personNotification": 2,
+    "PilarNotification": [
+        {
+            "notificationQtt": 1,
+            "notificationPilar": "CONSULTS"
+        },
+        {
+            "notificationQtt": 2,
+            "notificationPilar": "OPENRECORDS"
+        },
+        {
+            "notificationQtt": 1,
+            "notificationPilar": "CLOSEDRECORDS"
+        },
+        {
+            "notificationQtt": 1,
+            "notificationPilar": "PREOPENRECORDS"
+        },
+        {
+            "notificationQtt": 1,
+            "notificationPilar": "SCORE"
+        },
+        {
+            "notificationQtt": 1,
+            "notificationPilar": "REGISTER"
+        }
+    ],
+    "Score": [
+        {
+            "notificationId": "8cd2342f46b0fb000dc62e37",
+            "notificationDate": "2018-10-31T21:19:51.411",
+            "notificationRead": true,
+            "notificationType": "business",
+            "notificationPilar": "SCORE",
+            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+            "date": "2018-10-31",
+            "currentScore": 543,
+            "oldScore": 832
+        }
+    ],
+    "Record": [
+        {
+            "notificationId": "8cd2342f46b0fb000dc62e37",
+            "notificationDate": "2018-10-31T21:19:51.411",
+            "notificationRead": false,
+            "notificationType": "business",
+            "notificationPilar": "OPENRECORDS",
+            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+            "type": "PENDENCIA_FINANCEIRA_PEFIN",
+            "date": "2014-08-11",
+            "creditorCompany": "WORTH",
+            "modality": "DUPLICATA",
+            "amount": 32673,
+            "contractNumber": "14430/1 E/2"
+        },
+        {
+            "notificationId": "8cd2342f46b0fb000dc62e37",
+            "notificationDate": "2018-10-31T21:19:51.411",
+            "notificationRead": false,
+            "notificationType": "business",
+            "notificationPilar": "PREOPENRECORDS",
+            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+            "type": "PENDENCIA_FINANCEIRA_PEFIN",
+            "date": "2014-03-28",
+            "creditorCompany": "PORTOSEG S/A CREDITO",
+            "modality": "CRED CARTAO",
+            "amount": 32673,
+            "contractNumber": "4152750031468000"
+        },
+        {
+            "notificationId": "8cd2342f46b0fb000dc62e37",
+            "notificationDate": "2018-10-31T21:19:51.411",
+            "notificationRead": false,
+            "notificationType": "person",
+            "notificationPilar": "CLOSEDRECORDS",
+            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+            "type": "PARTICIPACAO_FALENCIA",
+            "date": "2017-08-24",
+            "creditorCompany": "CLAUDIA BICINERI PEREIRA",
+            "civilCourt": "8",
+            "legalNature": "PARTICIPACAO EM FALENCIA",
+            "observation": "4988749000140",
+            "city": ""
+        }
+    ],
+    "Consults": [
+        {
+            "notificationId": "8cd2342f46b0fb000dc62e37",
+            "notificationDate": "2018-10-31T21:19:51.411",
+            "notificationRead": true,
+            "notificationType": "return 'person' or 'business'",
+            "notificationPilar": "CONSULTS",
+            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+            "date": {},
+            "companyName": "Serasa Empreendedor S.A.",
+            "businessDocumentId": "34234922000110",
+            "quantity": 4
+        }
+    ],
+    "Register": [
+        {
+            "notificationId": "8cd2342f46b0fb000dc62e37",
+            "notificationDate": "2018-10-31T21:19:51.411",
+            "notificationRead": true,
+            "notificationType": "business",
+            "notificationPilar": "CONSULTS",
+            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+            "companyName": "G H DOS SANTOS SHANCES NEGREIROS CONSULTORIA EM TI ME",
+            "companyAlias": "G H DOS SANTOS SHANCES NEGREIR",
+            "companyDocument": "30843086000185",
+            "registrationStatus": "SITUACAO DO CNPJ EM 05/07/2018: ATIVA",
+            "foundationDate": "2018-07-03"
+        }
+    ],
+    "Pagination": {
+        "offset": 0,
+        "limit": 20,
+        "totalCount": 10,
+        "totalPages": 1,
+        "links": [
+            {
+                "href": "string",
+                "rel": "string"
+            }
+        ]
+    }
+}
