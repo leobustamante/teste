@@ -1,67 +1,68 @@
 {
-    "businessDocument": 43022877000121,
-    "businessNotification": 4,
-    "personDocument": 38102283612,
-    "personNotification": 2,
-    "PilarNotification": [
-        {
-            "notificationQtt": 1,
-            "notificationPilar": "CONSULTS"
-        },
-        {
-            "notificationQtt": 2,
-            "notificationPilar": "OPENRECORDS"
-        },
-        {
-            "notificationQtt": 1,
-            "notificationPilar": "CLOSEDRECORDS"
-        },
-        {
-            "notificationQtt": 1,
-            "notificationPilar": "PREOPENRECORDS"
-        },
-        {
-            "notificationQtt": 1,
-            "notificationPilar": "SCORE"
-        },
-        {
-            "notificationQtt": 1,
-            "notificationPilar": "REGISTER"
-        }
-    ],
-    "Score": [
-        {
-            "notificationId": "8cd2342f46b0fb000dc62e37",
-            "notificationDate": "2018-10-31T21:19:51.411",
-            "notificationRead": true,
-            "notificationType": "business",
-            "notificationPilar": "SCORE",
-            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
-            "date": "2018-10-31",
-            "currentScore": 543,
-            "oldScore": 832
-        }
-    ],
-    "Record": [
-        {
-            "notificationId": "8cd2342f46b0fb000dc62e37",
-            "notificationDate": "2018-10-31T21:19:51.411",
-            "notificationRead": false,
-            "notificationType": "business",
-            "notificationPilar": "OPENRECORDS",
-            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
-            "type": "PENDENCIA_FINANCEIRA_PEFIN",
-            "date": "2014-08-11",
-            "creditorCompany": "WORTH",
-            "modality": "DUPLICATA",
-            "amount": 32673,
-            "contractNumber": "14430/1 E/2"
-        },
-        {
-            "notificationId": "8cd2342f46b0fb000dc62e37",
-            "notificationDate": "2018-10-31T21:19:51.411",
-            "notificationRead": false,
-            "notificationType": "business",
+    "notifications" : {
+        "businessDocument": 43022877000121,
+        "businessNotification": 4,
+        "personDocument": 38102283612,
+        "personNotification": 2,
+        "PilarNotification": [
+            {
+                "notificationQtt": 1,
+                "notificationPilar": "CONSULTS"
+            },
+            {
+                "notificationQtt": 2,
+                "notificationPilar": "OPENRECORDS"
+            },
+            {
+                "notificationQtt": 1,
+                "notificationPilar": "CLOSEDRECORDS"
+            },
+            {
+                "notificationQtt": 1,
+                "notificationPilar": "PREOPENRECORDS"
+            },
+            {
+                "notificationQtt": 1,
+                "notificationPilar": "SCORE"
+            },
+            {
+                "notificationQtt": 1,
+                "notificationPilar": "REGISTER"
+            }
+        ],
+        "Score": [
+            {
+                "notificationId": "8cd2342f46b0fb000dc62e37",
+                "notificationDate": "2018-10-31T21:19:51.411",
+                "notificationRead": true,
+                "notificationType": "business",
+                "notificationPilar": "SCORE",
+                "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+                "date": "2018-10-31",
+                "currentScore": 543,
+                "oldScore": 832
+            }
+        ],
+        "Record": [
+            {
+                "notificationId": "8cd2342f46b0fb000dc62e37",
+                "notificationDate": "2018-10-31T21:19:51.411",
+                "notificationRead": false,
+                "notificationType": "business",
+                "notificationPilar": "OPENRECORDS",
+                "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+                "type": "PENDENCIA_FINANCEIRA_PEFIN",
+                "date": "2014-08-11",
+                "creditorCompany": "WORTH",
+                "modality": "DUPLICATA",
+                "amount": 32673,
+                "contractNumber": "14430/1 E/2"
+            },
+            {
+                "notificationId": "8cd2342f46b0fb000dc62e37",
+                "notificationDate": "2018-10-31T21:19:51.411",
+                "notificationRead": false,
+                "notificationType": "business",
             "notificationPilar": "PREOPENRECORDS",
             "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
             "type": "PENDENCIA_FINANCEIRA_PEFIN",
@@ -128,4 +129,5 @@
             }
         ]
     }
+  }
 }
