@@ -1,5 +1,5 @@
 {
-    "notifications" : {
+    "notifications": {
         "businessDocument": "43022877000121",
         "businessNotification": 0,
         "personDocument": "38102283612",
@@ -63,84 +63,231 @@
                 "notificationDate": "2018-10-31T21:19:51.411",
                 "notificationRead": false,
                 "notificationType": "business",
-            "notificationPilar": "PREOPENRECORDS",
-            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
-            "type": "PENDENCIA_FINANCEIRA_PEFIN",
-            "date": "2014-03-28",
-            "creditorCompany": "PORTOSEG S/A CREDITO",
-            "modality": "CRED CARTAO",
-            "amount": 32673,
-            "contractNumber": "4152750031468000"
-        },
-        {
-            "notificationId": "8cd2342f46b0fb000dc62e37",
-            "notificationDate": "2018-08-31T21:19:51.411",
-            "notificationRead": false,
-            "notificationType": "person",
-            "notificationPilar": "CLOSEDRECORDS",
-            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
-            "type": "PARTICIPACAO_FALENCIA",
-            "date": "2017-08-24",
-            "creditorCompany": "CLAUDIA BICINERI PEREIRA",
-            "civilCourt": "8",
-            "legalNature": "PARTICIPACAO EM FALENCIA",
-            "observation": "4988749000140",
-            "city": ""
-        }
-    ],
-    "Consults": [
-        {
-            "notificationId": "8cd2342f46b0fb000dc62e37",
-            "notificationDate": "2018-10-31T21:19:51.411",
-            "notificationRead": true,
-            "notificationType": "return 'person' or 'business'",
-            "notificationPilar": "CONSULTS",
-            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
-            "date": "2015-05-02",
-            "companyName": "Serasa Empreendedor S.A.",
-            "businessDocumentId": "34234922000110",
-            "quantity": 4
-        }
-    ],
-    "Register": [
-        {
-            "notificationId": "8cd2342f46b0fb000dc62e37",
-            "notificationDate": "2018-10-30T21:19:51.411",
-            "notificationRead": true,
-            "notificationType": "business",
-            "notificationPilar": "REGISTER",
-            "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
-            "companyName": "G H DOS SANTOS SHANCES NEGREIROS CONSULTORIA EM TI ME",
-            "companyAlias": "G H DOS SANTOS SHANCES NEGREIR",
-            "companyDocument": "30843086000185",
-            "registrationStatus": "SITUACAO DO CNPJ EM 05/07/2018: ATIVA",
-            "foundationDate": "2018-07-03",
-            "personRegistrationStatus": "INATIVO"
-        }
-    ],
-    "Pagination": {
-        "offset": 0,
-        "limit": 20,
-        "totalCount": 10,
-        "totalPages": 1,
-        "links": [
+                "notificationPilar": "PREOPENRECORDS",
+                "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+                "type": "PENDENCIA_FINANCEIRA_PEFIN",
+                "date": "2014-03-28",
+                "creditorCompany": "PORTOSEG S/A CREDITO",
+                "modality": "CRED CARTAO",
+                "amount": 32673,
+                "contractNumber": "4152750031468000"
+            },
             {
-                "href": "string",
-                "rel": "string"
+                "notificationId": "8cd2342f46b0fb000dc62e37",
+                "notificationDate": "2018-08-31T21:19:51.411",
+                "notificationRead": false,
+                "notificationType": "person",
+                "notificationPilar": "CLOSEDRECORDS",
+                "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+                "type": "PARTICIPACAO_FALENCIA",
+                "date": "2017-08-24",
+                "creditorCompany": "CLAUDIA BICINERI PEREIRA",
+                "civilCourt": "8",
+                "legalNature": "PARTICIPACAO EM FALENCIA",
+                "observation": "4988749000140",
+                "city": ""
             }
+        ],
+        "Consults": [
+            {
+                "notificationId": "8cd2342f46b0fb000dc62e37",
+                "notificationDate": "2018-10-31T21:19:51.411",
+                "notificationRead": true,
+                "notificationType": "return 'person' or 'business'",
+                "notificationPilar": "CONSULTS",
+                "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+                "date": "2015-05-02",
+                "companyName": "Serasa Empreendedor S.A.",
+                "businessDocumentId": "34234922000110",
+                "quantity": 4
+            }
+        ],
+        "Register": [
+            {
+                "notificationId": "8cd2342f46b0fb000dc62e37",
+                "notificationDate": "2018-10-30T21:19:51.411",
+                "notificationRead": true,
+                "notificationType": "business",
+                "notificationPilar": "REGISTER",
+                "notificationTip": "Ao ser consultado por uma empresa você deve saber...",
+                "companyName": "G H DOS SANTOS SHANCES NEGREIROS CONSULTORIA EM TI ME",
+                "companyAlias": "G H DOS SANTOS SHANCES NEGREIR",
+                "companyDocument": "30843086000185",
+                "registrationStatus": "SITUACAO DO CNPJ EM 05/07/2018: ATIVA",
+                "foundationDate": "2018-07-03",
+                "personRegistrationStatus": "INATIVO"
+            }
+        ],
+        "Pagination": {
+            "offset": 0,
+            "limit": 20,
+            "totalCount": 10,
+            "totalPages": 1,
+            "links": [
+                {
+                    "href": "string",
+                    "rel": "string"
+                }
+            ]
+        }
+    },
+    "auth": {
+        "body": {
+            "accessToken": "eyJhbGciOiJSUzUxMiJ9.eyJqdGkiOiJmNmFiY2M0NC1mYTQ2LTQ4YTktOWI3ZS1iZDhjZDUxNmQ3MzEiLCJpYXQiOjE1MzczODE5NjQsInNjb3BlIjpbIndyaXRlIiwicmVhZCJdLCJ1c2VyX2lkIjoiNWI2NDliMWFlMDk0YzkwMDA4MTllOWRhIiwiY2xpZW50X2lkIjoiNWIzOTEzMjQwMmU5YzEwMDA5YWY4NTcyIiwiY2xpZW50X2lkX2RlZmF1bHQiOiI1YjM5MTMyNDAyZTljMTAwMDlhZjg1NzIiLCJhcHBfaWQiOiI1YjM5MDg3N2YxOGY0ZjAwMDgyZDU5ODkiLCJidXNpbmVzc19pZCI6IjViNjQ5YjFhZTA5NGM5MDAwODE5ZTlkOSIsInNlcnZpY2VfaWQiOiI1YjM5MTMyMmYxOGY0ZjAwMDgyZDU5YTkiLCJjdXN0b21lcl9pZCI6MTU4OSwicHJvZHVjdF9hdXRob3JpemF0aW9uIjpbeyJwcm9kdWN0X2lkIjoiMjAwMjcyOCIsInByb2R1Y3RfYWxpYXMiOiJTQVVERUZJTkFOQ0VJUkFBU1NJTkFUVVJBIiwidG9rZW5zIjpbeyJ0b2tlbiI6ImY1MGM3ZGQ4LWUxNGUtNDk4Zi04NTk0LTNiNjExZTJkODNjNCIsInNrdSI6Ik1QTUUtMjAwMjcyOS1QUkUtMTAwMDA1LTAwMDAwMDEiLCJiaWxsaW5nX3R5cGUiOiJFWFBFTkQifV19XSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9CVVNJTkVTU0FETUlOIiwiUk9MRV9DTEktQVVUSC1JREVOVElGSUVEIiwiUk9MRV9CVVNJTkVTUyIsIlJPTEVfQ0xJLTFTVFBBUlRZIiwiUk9MRV9VU0VSIiwiUk9MRV9BVVRILUJBU0lDIiwiUk9MRV9DTEktM1JEUEFSVFkiLCJST0xFX1BFUlNPTiIsIlJPTEVfQlVTSU5FU1NPV05FUiIsIlJPTEVfQlVTSU5FU1NVU0VSIiwiUk9MRV9BVVRILUlERU5USUZJRUQiXSwiZXhwIjo5OTk5OTk5OTk5fQ.boI4MKjV9ji727mEWZoKN7ruhrSnYoqrQVoAFdUCZlXksth6rgCknMtFABkle2eOP6msORECK2Ug5_vA95yUs08NupWdtNQJq-wh0oCSqFn7pJpQez8cWjwOB1QRJh_8qcG3h_fQIoEdizGTiydU7_dOe2IePX3JvWkOmXexziQWHs9RXlyhM944GWoCWM9vhVZE_i7dw7wv_mzUpKBPiUrAKUoKK-Uf96mNw1aEjfM_mfiyI0gmfcX7TlMyote7OtXSJh45Rmx3K3DwCKKJrSI4ZcoYz_-BKVNwJtTUU4dsfPSbyHwAvWCGXvfAfO1L0ZDxuCIR2ajE0nJngrKBjg",
+            "tokenType": "Bearer",
+            "refreshToken": "string",
+            "expiresIn": "1534795881",
+            "scope": [
+                "read",
+                "write"
+            ]
+        }
+    },
+    "score0": {
+        "score": 0,
+        "scoreModel": "CMEI",
+        "defaultRate": "098,6300",
+        "codeMessage": 200,
+        "message": "PROBABILIDADE DE INADIMPLENCIA: 100%",
+        "scoreParam": [
+            {
+                "key": "SEGMENTO_CMEI",
+                "value": "02"
+            },
+            {
+                "key": "DiasFund_PJ",
+                "value": "0002354"
+            },
+            {
+                "key": "UF_PJ",
+                "value": "MG"
+            }            
         ]
-    }
-  },
-  "auth": {
-	"body": {
-	  "accessToken": "eyJhbGciOiJSUzUxMiJ9.eyJqdGkiOiJmNmFiY2M0NC1mYTQ2LTQ4YTktOWI3ZS1iZDhjZDUxNmQ3MzEiLCJpYXQiOjE1MzczODE5NjQsInNjb3BlIjpbIndyaXRlIiwicmVhZCJdLCJ1c2VyX2lkIjoiNWI2NDliMWFlMDk0YzkwMDA4MTllOWRhIiwiY2xpZW50X2lkIjoiNWIzOTEzMjQwMmU5YzEwMDA5YWY4NTcyIiwiY2xpZW50X2lkX2RlZmF1bHQiOiI1YjM5MTMyNDAyZTljMTAwMDlhZjg1NzIiLCJhcHBfaWQiOiI1YjM5MDg3N2YxOGY0ZjAwMDgyZDU5ODkiLCJidXNpbmVzc19pZCI6IjViNjQ5YjFhZTA5NGM5MDAwODE5ZTlkOSIsInNlcnZpY2VfaWQiOiI1YjM5MTMyMmYxOGY0ZjAwMDgyZDU5YTkiLCJjdXN0b21lcl9pZCI6MTU4OSwicHJvZHVjdF9hdXRob3JpemF0aW9uIjpbeyJwcm9kdWN0X2lkIjoiMjAwMjcyOCIsInByb2R1Y3RfYWxpYXMiOiJTQVVERUZJTkFOQ0VJUkFBU1NJTkFUVVJBIiwidG9rZW5zIjpbeyJ0b2tlbiI6ImY1MGM3ZGQ4LWUxNGUtNDk4Zi04NTk0LTNiNjExZTJkODNjNCIsInNrdSI6Ik1QTUUtMjAwMjcyOS1QUkUtMTAwMDA1LTAwMDAwMDEiLCJiaWxsaW5nX3R5cGUiOiJFWFBFTkQifV19XSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9CVVNJTkVTU0FETUlOIiwiUk9MRV9DTEktQVVUSC1JREVOVElGSUVEIiwiUk9MRV9CVVNJTkVTUyIsIlJPTEVfQ0xJLTFTVFBBUlRZIiwiUk9MRV9VU0VSIiwiUk9MRV9BVVRILUJBU0lDIiwiUk9MRV9DTEktM1JEUEFSVFkiLCJST0xFX1BFUlNPTiIsIlJPTEVfQlVTSU5FU1NPV05FUiIsIlJPTEVfQlVTSU5FU1NVU0VSIiwiUk9MRV9BVVRILUlERU5USUZJRUQiXSwiZXhwIjo5OTk5OTk5OTk5fQ.boI4MKjV9ji727mEWZoKN7ruhrSnYoqrQVoAFdUCZlXksth6rgCknMtFABkle2eOP6msORECK2Ug5_vA95yUs08NupWdtNQJq-wh0oCSqFn7pJpQez8cWjwOB1QRJh_8qcG3h_fQIoEdizGTiydU7_dOe2IePX3JvWkOmXexziQWHs9RXlyhM944GWoCWM9vhVZE_i7dw7wv_mzUpKBPiUrAKUoKK-Uf96mNw1aEjfM_mfiyI0gmfcX7TlMyote7OtXSJh45Rmx3K3DwCKKJrSI4ZcoYz_-BKVNwJtTUU4dsfPSbyHwAvWCGXvfAfO1L0ZDxuCIR2ajE0nJngrKBjg",
-	  "tokenType": "Bearer",
-	  "refreshToken": "string",
-	  "expiresIn": "1534795881",
-	  "scope": [
-		"read",
-		"write"
-	  ]
-	}
+    },
+    "score2": {
+        "score": 2,
+        "scoreModel": "CMEI",
+        "defaultRate": "098,6300",
+        "codeMessage": 200,
+        "message": "PROBABILIDADE DE INADIMPLENCIA: 90%",
+        "scoreParam": [
+            {
+                "key": "SEGMENTO_CMEI",
+                "value": "02"
+            },
+            {
+                "key": "DiasFund_PJ",
+                "value": "0002354"
+            },
+            {
+                "key": "UF_PJ",
+                "value": "MG"
+            }            
+        ]
+    },
+    "score50": {
+        "score": 50,
+        "scoreModel": "CMEI",
+        "defaultRate": "098,6300",
+        "codeMessage": 200,
+        "message": "PROBABILIDADE DE INADIMPLENCIA: 95.87%",
+        "scoreParam": [
+            {
+                "key": "SEGMENTO_CMEI",
+                "value": "02"
+            },
+            {
+                "key": "DiasFund_PJ",
+                "value": "0002354"
+            },
+            {
+                "key": "UF_PJ",
+                "value": "MG"
+            }            
+        ]
+    },
+    "score400": {
+        "score": 400,
+        "scoreModel": "CMEI",
+        "defaultRate": "098,6300",
+        "codeMessage": 200,
+        "message": "PROBABILIDADE DE INADIMPLENCIA: 50.31%",
+        "scoreParam": [
+            {
+                "key": "SEGMENTO_CMEI",
+                "value": "02"
+            },
+            {
+                "key": "DiasFund_PJ",
+                "value": "0002354"
+            },
+            {
+                "key": "UF_PJ",
+                "value": "MG"
+            }            
+        ]
+    },
+    "score700": {
+        "score": 400,
+        "scoreModel": "CMEI",
+        "defaultRate": "098,6300",
+        "codeMessage": 200,
+        "message": "PROBABILIDADE DE INADIMPLENCIA: 20.31%",
+        "scoreParam": [
+            {
+                "key": "SEGMENTO_CMEI",
+                "value": "02"
+            },
+            {
+                "key": "DiasFund_PJ",
+                "value": "0002354"
+            },
+            {
+                "key": "UF_PJ",
+                "value": "MG"
+            }            
+        ]
+    },
+    "score1000": {
+        "score": 1000,
+        "scoreModel": "CMEI",
+        "defaultRate": "098,6300",
+        "codeMessage": 200,
+        "message": "PROBABILIDADE DE INADIMPLENCIA: 0%",
+        "scoreParam": [
+            {
+                "key": "SEGMENTO_CMEI",
+                "value": "02"
+            },
+            {
+                "key": "DiasFund_PJ",
+                "value": "0002354"
+            },
+            {
+                "key": "UF_PJ",
+                "value": "MG"
+            }            
+        ]
+    },
+    "scoreRisk5": {
+        "score": 500,
+        "scoreModel": "Risk5",
+        "defaultRate": "098,6300",
+        "codeMessage": 200,
+        "message": "PROBABILIDADE DE INADIMPLENCIA: 20.31%",
+        "scoreParam": [
+            {
+                "key": "SEGMENTO_CMEI",
+                "value": "02"
+            },
+            {
+                "key": "DiasFund_PJ",
+                "value": "0002354"
+            },
+            {
+                "key": "UF_PJ",
+                "value": "MG"
+            }            
+        ]
     }
 }
