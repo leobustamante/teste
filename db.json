@@ -83,30 +83,9 @@
             }            
         ]
     },
-    "score700": {
-        "score": 400,
-        "scoreModel": "CMEI",
-        "defaultRate": "098,6300",
-        "codeMessage": 200,
-        "message": "PROBABILIDADE DE INADIMPLENCIA: 20.31%",
-        "scoreParam": [
-            {
-                "key": "SEGMENTO_CMEI",
-                "value": "02"
-            },
-            {
-                "key": "DiasFund_PJ",
-                "value": "0002354"
-            },
-            {
-                "key": "UF_PJ",
-                "value": "MG"
-            }            
-        ]
-    },
     "score1000": {
         "score": 1000,
-        "scoreModel": "CMEI",
+        "scoreModel": "Risk5",
         "defaultRate": "098,6300",
         "codeMessage": 200,
         "message": "PROBABILIDADE DE INADIMPLENCIA: 0%",
@@ -124,26 +103,5 @@
                 "value": "MG"
             }            
         ]
-    },
-    "scoreRisk5": {
-        "score": 500,
-        "scoreModel": "Risk5",
-        "defaultRate": "098,6300",
-        "codeMessage": 200,
-        "message": "PROBABILIDADE DE INADIMPLENCIA: 20.31%",
-        "scoreParam": [
-            {
-                "key": "SEGMENTO_CMEI",
-                "value": "02"
-            },
-            {
-                "key": "DiasFund_PJ",
-                "value": "0002354"
-            },
-            {
-                "key": "UF_PJ",
-                "value": "MG"
-            }            
-        ]
-    }
+    }    
 }
